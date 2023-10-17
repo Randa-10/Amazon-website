@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amazon Navbar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="./css/swiper.css"> -->
+
+    <link rel="stylesheet" href="./css/card.css">
+
+
+
+
+
+    <link rel="stylesheet" href="./css/slider.css">
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+
+                <a href="index.html" class="navbar-logo"><img class="logo_img" src="resources/logo.png" alt="logo"></a>
+                <a href="#"><img src="./resources/egypt_logo.PNG" width="80px" alt=""></a>
+
+
+            </div>
+            <div class="navbar-search">
+                <form action="search.html" method="get" class="navbar-search">
+                    <input type="text" placeholder="Search Amazon.eg" name="searchValue">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="navbar-links">
+                <a href="#"><img src="./resources/searchAs.PNG" width="80px" alt=""></a>
+                <a id="Signin" href="./login.html">Hello,Sign in</a>
+                <a id="return" href="#">Return & Order</a>
+
+            </div>
+            <div class="cart_icon">
+
+                <a href="./cart.html"><img class="cart_img_icon" src="./resources/icon_cart.PNG" alt=""></a>
+
+                <span class="cart_num">3</span>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar2">
+        <div class="navbar-container2">
+
+
+            <div class="navbar-links2">
+
+                <div class="all_menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>ALL</span>
+
+                </div>
+                <div class="all_menu">
+
+                    <a href="#">Tody's Deals</a>
+
+                </div>
+                <div class="all_menu">
+
+                    <a href="#">Customer's Servises</a>
+
+                </div>
+                <div class="all_menu">
+
+                    <a href="#">Registry</a>
+
+                </div>
+                <div class="all_menu">
+
+                    <a href="#">Gift card</a>
+
+                </div>
+                <div class="all_menu">
+
+                    <a href="#">Sell</a>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="free_d">
+
+                <a href=""><img src="./resources/free_d_.jpg" alt=""></a>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- slider -->
+
+    <!-- Martina -->
+
+    <div class="slider-content slider-display-container">
+        <img class="mySlides" src="resources/kitchen.jpg" alt="kitchen favourits" style="width:100%">
+        <img class="mySlides" src="resources/shop books.jpg" alt="Shop Books" style="width:100%">
+        <img class="mySlides" src="resources/shopgaming.jpg" alt="Shop Gaming Essentials" style="width:100%">
+        <img class="mySlides" src="resources/toys.jpg" alt="New Arrival in Toys" style="width:100%">
+        <img class="mySlides" src="resources/peauty products.jpg" alt="Peauty Products" style="width:100%">
+
+
+        <button class="slider-btn slider-btn-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="slider-btn slider-btn-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <!-- end  slider -->
+
+
+    <script src="./JavaScript/main.js"></script>
+    <script src="./JavaScript/slider.js"></script>
+
+
+
+
+    <!-- cards -->
+
+    <!-- <card sec1> -->
+
+    <div class="main6">
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Makeup|new arrivals</h1>
+                    <a href=""> <img src="./img/XCM_Manual_1474863_5024994_379x304_1X._SY304_CB608898092_.jpg"
+                            class="blue">
+                        <br>
+                        <br>
+                        <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Headphones | Up to 20% off</h1>
+                    <a href=""> <img src="./img/download.jpg" class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Men's Clothes | Up to 70%</h1>
+                    <a href=""> <img src="./img/XCM_Manual_1464389_4986660_379x304_1X._SY304_CB609528233_.jpg"
+                            class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Support Egyptian products | High quality local products</h1>
+                    <a href=""> <img
+                            src="./img/XCM_Manual_1478853_EG_GW_DC_3P_LocalStore_16b9c3af-3cbb-473e-bdac-1f5968191ddc_x1._SY304_CB607312444_.jpg"
+                            class="blue" style="height:250px ;"> </a>
+                    <p style="font-size: 10px;">EGP75.00
+                        ZERO Multi Functional Cleaner FoamZERO Multi Functional Cleaner Foam</p>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Sportswear & Shoes | Wide Selection </h1>
+                    <div class="card-img12" style="display: block; margin-top: 80px;  ">
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_men-s-shoes_186x116_eg-en._SY116_CB589515604_.jpg">
+                            </a></span>
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_men-s-sportswear_186x116_eg-en._SY116_CB589515586_ (1).jpg"></a>
+                        </span>
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_women-s-shoes_186x116_eg-en._SY116_CB589515609_.jpg"></a></span>
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_women-s-sportswear_186x116_eg-en._SY116_CB589515612_.jpg"></a></span>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Kitchen essentials | Up to 15% off</h1>
+                    <a href=""> <img src="./img/XCM_Manual_1466738_4981387_379x304_1X._SY304_CB609258982_.jpg"
+                            class="blue"></a>
+                    <br>
+
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Price Drops|Easy & Free Returns*</h1>
+                    <a href=""> <img src="./img/5_1575823_5599683_379x304_1X._SY304_CB588702070_.jpg" class="blue"></a>
+                    <br>
+
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Shopping on Amazon is easy, watch to learn more </h1>
+                    <a href=""> <img src="./img/video_thumb_comb_create_acct_web_260x260_en._SY304_CB642157630_.jpg"
+                            class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+
+
+    <!-- <end card sec1> -->
+
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper" id="card-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="container swiper">
+        <div class="slide-container2">
+            <div class="card-wrapper swiper-wrapper" id="card-wrapper2"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <card sec2> -->
+
+    <div class="main6">
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Swimsuits | Low prices</h1>
+                    <a href=""> <img src="./img/44444444441582002_5636774_379x304_1X._SY304_CB588247673_.jpg"
+                            class="blue">
+                        <br>
+                        <br>
+                        <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Headphones | Up to 20% off</h1>
+                    <a href=""> <img src="./img/download.jpg" class="blue" style="height:280px ; margin-top:10px ;"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>TVs | Up to 15% off</h1>
+                    <div class="card-img12" style="display: block; margin-top: 30px; margin-left: 20px;  ">
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/45_banners_186x116-8ept2-owa5e_372x232_eg-en._SY116_CB632343017_.jpg">
+                            </a></span>
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/46_186x116-8ept2-eazjq_372x232_eg-en._SY116_CB632343023_.jpg"></a>
+                        </span>
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/48186x116-8ept2-7mq9c_372x232_eg-en._SY116_CB632343022_.jpg"></a></span>
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/74_186x116-8ept2-ednve_372x232_eg-en._SY116_CB632343018_.jpg"></a></span>
+                    </div>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Grills | Starting 299 EGP | Free Returns*</h1>
+                    <a href=""> <img src="./img/441454187_4865799_379x304_1X._SY304_CB632093734_.jpg" class="blue"
+                            style="height:260px ;"> </a>
+                    <p style="font-size: 10px;">EGP75.00
+                        ZERO Multi Functional Cleaner FoamZERO Multi Functional Cleaner Foam</p>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <!-- <end card sec2> -->
+
+    <!-- <card sec3> -->
+
+    <div class="main6">
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Toys & Games</h1>
+                    <div class="card-img12" style="display: block; margin-top: 30px; margin-left: 20px;  ">
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/11_4393337_Egypt_EG_OHL_QC_1_Toys_186x116_1X._SY116_CB650727264_.jpg">
+                            </a></span>
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/12_Egypt_EG_OHL_QC_3_Toys_186x116_1X._SY116_CB650727264_.jpg"></a>
+                        </span>
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/13_4393331_Egypt_EG_OHL_QC_4_Toys_186x116_1X._SY116_CB650727264_.jpg"></a></span>
+                        <span><a href=""> <img style="height: 120px;width: 130px;"
+                                    src="./img/14Egypt_EG_OHL_QC_2_Toys_186x116_1X._SY116_CB650727264_.jpg"></a></span>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>New arrivals | Jewelry & accessories</h1>
+                    <a href=""> <img
+                            src="./img/8_Manual_1396328_4379574_Egypt_EG_BAU_GW_DC_SL_Jewelry_379x304_1X._SY304_CB650636675_.jpg"
+                            class="blue"></a>
+
+                    <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Frequently repurchased in Beauty & Personal Care</h1>
+                    <a href=""> <img src="./img/7K6cQhw4EL._AC_SY175_.jpg" class="blue"
+                            style="height: 250px;width: 200px;"></a>
+                    <p style="font-size: 10px;">EGP75.00
+                        ZERO Multi Functional Cleaner FoamZERO Multi Functional Cleaner Foam</p>
+                    <p style="text-decoration: line-through;"> EGP:100 </p>
+                    <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Toys & games | Below 200 EGP</h1>
+                    <a href=""> <img src="./img/6Manual_1466755_4982783_379x304_1X._SY304_CB609289554_.jpg" class="blue"
+                            style="height:300px ;"> </a>
+                    <p style="font-size: 10px;">EGP75.00
+                        ZERO Multi Functional Cleaner FoamZERO Multi Functional Cleaner Foam</p>
+
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper" id="card-wrapper3"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="container swiper">
+        <div class="slide-container2">
+            <div class="card-wrapper swiper-wrapper" id="card-wrapper4"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+    <!-- <end card sec3> -->
+    <!-- <card sec4> -->
+    <div class="main6">
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Bathroom Fixtures | Free Returns*</h1>
+                    <a href=""> <img src="./img/4_Manual_1571341_5581079_379x304_2X._SY304_CB589629912_.jpg"
+                            class="blue">
+                        <br>
+                        <br>
+                        <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Explore selection of Laptops</h1>
+                    <a href=""> <img src="./img/3_Manual_1467579_4993638_379x304_1X._SY304_CB609791102_.jpg"
+                            class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Tools & Home Improvement</h1>
+                    <a href=""> <img
+                            src="./img/2_Manual_1397527_4402_Egypt_EG_BAU_DC_OHL_Tools_DC_2x_379x304_1X._SY304_CB649320776_.jpg"
+                            class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Camera & accessories | Up to 10% off </h1>
+                    <a href=""> <img src="./img/1XCM_Manual_1467579_4993637_379x304_1X._SY304_CB609791102_.jpg"
+                            class="blue" style="height:250px ;"> </a>
+                    <p style="font-size: 10px;">EGP75.00
+                        ZERO Multi Functional Cleaner FoamZERO Multi Functional Cleaner Foam</p>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper" id="card-wrapper5"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="container swiper">
+        <div class="slide-container2">
+            <div class="card-wrapper swiper-wrapper" id="card-wrapper6"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="main6">
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Makeup|new arrivals</h1>
+                    <a href=""> <img src="./img/XCM_Manual_1474863_5024994_379x304_1X._SY304_CB608898092_.jpg"
+                            class="blue">
+                        <br>
+                        <br>
+                        <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Headphones | Up to 20% off</h1>
+                    <a href=""> <img src="./img/download.jpg" class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Men's Clothes | Up to 70%</h1>
+                    <a href=""> <img src="./img/XCM_Manual_1464389_4986660_379x304_1X._SY304_CB609528233_.jpg"
+                            class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Support Egyptian products | High quality local products</h1>
+                    <a href=""> <img
+                            src="./img/XCM_Manual_1478853_EG_GW_DC_3P_LocalStore_16b9c3af-3cbb-473e-bdac-1f5968191ddc_x1._SY304_CB607312444_.jpg"
+                            class="blue" style="height:250px ;"> </a>
+                    <p style="font-size: 10px;">EGP75.00
+                        ZERO Multi Functional Cleaner FoamZERO Multi Functional Cleaner Foam</p>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Sportswear & Shoes | Wide Selection </h1>
+                    <div class="card-img12" style="display: block; margin-top: 80px;  ">
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_men-s-shoes_186x116_eg-en._SY116_CB589515604_.jpg">
+                            </a></span>
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_men-s-sportswear_186x116_eg-en._SY116_CB589515586_ (1).jpg"></a>
+                        </span>
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_women-s-shoes_186x116_eg-en._SY116_CB589515609_.jpg"></a></span>
+                        <span><a href=""> <img
+                                    src="./img/xcm_banners_women-s-sportswear_186x116_eg-en._SY116_CB589515612_.jpg"></a></span>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Kitchen essentials | Up to 15% off</h1>
+                    <a href=""> <img src="./img/XCM_Manual_1466738_4981387_379x304_1X._SY304_CB609258982_.jpg"
+                            class="blue"></a>
+                    <br>
+
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Price Drops|Easy & Free Returns*</h1>
+                    <a href=""> <img src="./img/5_1575823_5599683_379x304_1X._SY304_CB588702070_.jpg" class="blue"></a>
+                    <br>
+
+                    <a href="" class="cont">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content1">
+                <div class="items">
+                    <h1>Shopping on Amazon is easy, watch to learn more </h1>
+                    <a href=""> <img src="./img/video_thumb_comb_create_acct_web_260x260_en._SY304_CB642157630_.jpg"
+                            class="blue"></a>
+                    <br>
+                    <br>
+                    <a href="" class="cont">shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+
+
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="help.html">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p>© 1996-2023, Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+
+
+    <script src="./JavaScript/main.js"></script>
+    <script src="./JavaScript/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="pruducts.json" id="product-data" type="application/json"></script>
+</body>
+
+</html>

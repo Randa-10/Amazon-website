@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+</head>
+
+<body>
+    <div  class="icon">
+        <a href="index.html"><img src="/resources/amazon.png" alt="amazon" width="100px"  ></a>
+    </div>
+
+    <div id="container">
+        <div id="formid">
+            <form action="index.html" onsubmit="return validateForm()">
+                <h1 id="Signh1">Sign in</h1>
+                <div id="">
+                    <label for="loginmail">Email or mobile phone number</label>
+                </div>
+                <input type="email" id="loginmail" name="email" required>
+                <span style="color: red;" class="error" id="emailError"></span> <!-- Error label for email -->
+                
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="password" required>
+                <span style="color: red;" class="error" id="passwordError"></span> <!-- Error label for password -->
+            
+                <a href="#">Forgot your password?</a>
+                <div class="btn">
+                    <button type="submit" id="button">Sign in</button>
+                </div>
+                <input type="checkbox" >
+                <span  > Keep me signed in. <a href="register.html">Register</a></span>
+            </form>
+            
+            
+        </div>
+    </div>
+    <div id="foot">
+        <span class="footer" style="text-align:right; "> <a href="#">Conditions of Use</a> </span> 
+       <span class="footer" style="text-align: center;"><a href="#"> Privacy Notice </a></span>
+            <span class="footer" style="text-align: left;"><a href="help.html"> Help </a></span>
+    </div>
+    <div id="copyrights">
+        <span style="font-size: small;text-align: center;">&copy;1996-2023, Amazon.com, Inc. or its affiliates</span>
+    </div>
+    <script src="./JavaScript/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+{
+  "products": [
+      {
+          "id": 1,
+          "name": "Product 1",
+          "price": 120.99,
+          "category": "Electronics",
+          "img": "./resources/swiper/13.png",
+          "description": "This is the description for Product 1. It is a fantastic product that will meet all your needs."
+      },
+      {
+          "id": 2,
+          "name": "Product 2",
+          "price": 85.50,
+          "category": "Home & Kitchen",
+          "img": "./resources/swiper/14.png",
+          "description": "Product 2 is a high-quality item designed to improve your daily life. Don't miss out!"
+      },
+      {
+          "id": 3,
+          "name": "Product 3",
+          "price": 45.75,
+          "category": "Clothing",
+          "img": "./resources/swiper/15.png",
+          "description": "Get ready to turn heads with Product 3. Its unique design is sure to impress."
+      },
+      {
+          "id": 4,
+          "name": "Product 4",
+          "price": 299.99,
+          "category": "Books",
+          "img": "./resources/swiper/16.png",
+          "description": "Dive into a world of imagination and knowledge with Product 4. A must-read for book lovers!"
+      },
+      {
+          "id": 5,
+          "name": "Product 5",
+          "price": 19.95,
+          "category": "Toys & Games",
+          "img": "./resources/swiper/17.png",
+          "description": "Entertain and educate with Product 5, a fun and educational toy for all ages."
+      },
+      {
+          "id": 6,
+          "name": "Product 6",
+          "price": 59.00,
+          "category": "Beauty",
+          "img": "./resources/swiper/18.png",
+          "description": "Enhance your natural beauty with Product 6. Your go-to beauty solution!"
+      },
+      {
+          "id": 7,
+          "name": "Product 7",
+          "price": 129.75,
+          "category": "Sports & Outdoors",
+          "img": "./resources/swiper/19.png",
+          "description": "Get active and embrace the outdoors with Product 7. Stay fit and have fun!"
+      },
+      {
+          "id": 8,
+          "name": "Product 8",
+          "price": 44.99,
+          "category": "Pets",
+          "img": "./resources/swiper/20.png",
+          "description": "Product 8 is the perfect companion for your beloved pets. They'll love it!"
+      },
+      {
+          "id": 9,
+          "name": "Product 9",
+          "price": 179.50,
+          "category": "Home Improvement",
+          "img": "./resources/swiper/21.png",
+          "description": "Transform your home with Product 9, making it more comfortable and stylish."
+      },
+      {
+          "id": 10,
+          "name": "Product 10",
+          "price": 69.95,
+          "category": "Health & Wellness",
+          "img": "./resources/swiper/22.png",
+          "description": "Prioritize your health and well-being with Product 10. Feel better every day!"
+      },
+      {
+          "id": 11,
+          "name": "Product 11",
+          "price": 399.00,
+          "category": "Automotive",
+          "img": "./resources/swiper/23.png",
+          "description": "Keep your vehicle in top shape with Product 11. An essential for car enthusiasts!"
+      },
+      {
+          "id": 12,
+          "name": "Product 12",
+          "price": 55.25,
+          "category": "Garden & Outdoor",
+          "img": "./resources/swiper/24.png",
+          "description": "Create a beautiful garden with Product 12. Ideal for green thumbs!"
+      },
+      {
+          "id": 13,
+          "name": "Product 13",
+          "category": "Fashion",
+          "price": 79.99,
+          "img": "./resources/swiper/25.png",
+          "description": "Stay fashionable with Product 13. Elevate your style effortlessly!"
+      },
+      {
+          "id": 14,
+          "name": "Product 14",
+          "price": 14.50,
+          "category": "Office & Stationery",
+          "img": "./resources/swiper/26.png",
+          "description": "Product 14 is your perfect work buddy. Stay organized and efficient!"
+      },
+      {
+          "id": 15,
+          "name": "Product 15",
+          "price": 33.25,
+          "category": "Baby & Kids",
+          "img": "./resources/swiper/27.png",
+          "description": "Give your little ones the best with Product 15. Designed with care for babies and kids."
+      },
+      {
+          "id": 16,
+          "name": "Product 16",
+          "price": 249.95,
+          "category": "Electronics",
+          "img": "./resources/swiper/28.png",
+          "description": "Upgrade your tech game with Product 16. Experience the latest innovations!"
+      },
+      {
+          "id": 17,
+          "name": "Product 17",
+          "price": 9.99,
+          "category": "Food & Beverages",
+          "img": "./resources/swiper/29.png",
+          "description": "Indulge in deliciousness with Product 17. Satisfy your taste buds!"
+      },
+      {
+          "id": 18,
+          "name": "Product 18",
+          "price": 15.99,
+          "category": "Travel",
+          "img": "./resources/swiper/30.png",
+          "description": "Travel in style and comfort with Product 18. Adventure awaits!"
+      },
+      {
+          "id": 19,
+          "name": "Product 19",
+          "price": 100.00,
+          "category": "Fitness",
+          "img": "./resources/swiper/31.png",
+          "description": "Get fit and stay active with Product 19. Your fitness journey starts here!"
+      },
+      {
+          "id": 20,
+          "name": "Product 20",
+          "price": 5.00,
+          "category": "Art & Crafts",
+          "img": "./resources/swiper/32.png",
+          "description": "Unleash your creativity with Product 20. Perfect for artists and crafters!"
+      }
+  ]
+}

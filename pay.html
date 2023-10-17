@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PaymentPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/paymentStyle.css">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+
+        <a href="index.html" class="navbar-logo"><img class="logo_img" src="resources/logo.png" alt="logo"></a>
+        <a href="#"><img src="./resources/egypt_logo.PNG" width="80px" alt=""></a>
+
+
+      </div>
+      <div class="navbar-search">
+        <input type="text" placeholder="Search Amazon.eg">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="navbar-links">
+        <a href="#"><img src="./resources/searchAs.PNG" width="80px" alt=""></a>
+        <a id="Signin" href="./login.html">Hello,Sign in</a>
+        <a id="return" href="#">Return & Order</a>
+
+      </div>
+      <div class="cart_icon">
+
+        <a href="./cart.html"><img class="cart_img_icon" src="./resources/icon_cart.PNG" alt=""></a>
+
+        <span class="cart_num">3</span>
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  <nav class="navbar2">
+    <div class="navbar-container2">
+
+
+      <div class="navbar-links2">
+        <div class="all_menu">
+          <i class="fa-solid fa-bars"></i>
+          <span>ALL</span>
+
+        </div>
+        <div class="all_menu">
+
+          <a href="#">Tody's Deals</a>
+
+        </div>
+        <div class="all_menu">
+
+          <a href="#">Customer's Servises</a>
+
+        </div>
+        <div class="all_menu">
+
+          <a href="#">Registry</a>
+
+        </div>
+        <div class="all_menu">
+
+          <a href="#">Gift card</a>
+
+        </div>
+        <div class="all_menu">
+
+          <a href="#">Sell</a>
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="free_d">
+
+        <a href=""><img src="./resources/free_d_.jpg" alt=""></a>
+
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- main content -->
+  <h1>Payment Form</h1>
+  <div class="container-pay">
+    <form action="#">
+
+      <div class="main">
+        <div class="leftside">
+          <h3>Billing Address</h3>
+          <label for="fname"><i class="fa-solid fa-user-large"></i> Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="hamza.m.f">
+          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+          <input type="text" id="email" name="email" placeholder="h@example.com">
+          <label for="adr"><i class="fa-solid fa-map-location-dot"></i> Address</label>
+          <input type="text" id="adr" name="address" placeholder=" so.Akh. 15th Street">
+          <label for="city"><i class="fa fa-institution"></i> City</label>
+          <input type="text" id="city" name="city" placeholder="Sohag">
+
+          <div class="main2">
+            <div style="margin-right: 10px;">
+              <label for="state"><i class="fa-solid fa-house"></i>State</label>
+              <input type="text" id="state" name="state" placeholder="Akhmim">
+            </div>
+            <div>
+              <label for="zip">Zip</label>
+              <input type="text" id="zip" name="zip" placeholder="10001">
+            </div>
+          </div>
+        </div>
+
+        <div class="leftside">
+          <h3>Payment</h3>
+          <label for="fname">Accepted Cards</label>
+          <div class="icon-container">
+            <i class="fa-brands fa-cc-visa" style="color: blue;"></i>
+            <i class="fa-regular fa-credit-card"></i>
+            <i class="fa-brands fa-cc-mastercard" style="color: orangered;"></i>
+            <i class="fa-brands fa-cc-paypal" style="color: darkblue;"></i>
+          </div>
+          <label for="cname">Name on Card</label>
+          <input type="text" id="cname" name="cardname" placeholder="hamza.m.f">
+          <label for="ccnum">Credit card number</label>
+          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+          <label for="expmonth">Exp Month</label>
+          <input type="text" id="expmonth" name="expmonth" placeholder="September">
+          <div class="main2">
+            <div style="padding-right: 10px;">
+              <label for="expyear">Exp Year</label>
+              <input type="text" id="expyear" name="expyear" placeholder="2025">
+            </div>
+            <div>
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="000">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <label>
+        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+      </label>
+      <center><input type="submit" value="Continue to pay" class="btn"></center>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="help.html">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p>© 1996-2023, Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
+
+    </div>
+  </footer>
+  <script src="JavaScript/pay.js"></script>
+</body>
+
+</html>

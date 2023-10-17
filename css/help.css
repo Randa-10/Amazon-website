@@ -1,0 +1,171 @@
+.main2{
+    margin: 0;
+    background-color:#F7FAFA;
+    padding-top: 20px;
+    
+}
+.menu{
+    
+    margin-left:auto;
+    margin-right:auto;
+    width: 1400px;
+
+   padding-top: 40px;
+ 
+ }
+ #first{
+    margin-left: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box{
+width: 90%;
+color: #7a7a7a;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+padding: 12px 20px 12px 40px;
+ box-shadow: 3px 3px 3px 3px rgb(190, 190, 255);
+
+}
+
+#box:focus {
+border: 3px solid #83a9f4;
+}
+ 
+ .top {
+   
+     background-color: rgb(255, 255, 255);
+     border: rgb(191, 191, 191) 1px solid;
+     border-radius:10px;
+     width: 35%;
+     height: 100px;
+     margin-top: 30px;
+     margin-left: 20px;
+     float: left;
+ }
+ .top p{
+    font-size: 12px;
+    color: rgb(169, 169, 169);
+    margin-left: 20px;
+}
+.top h3{
+    font-size: 14px;
+    margin-left: 20px;
+    padding-top: 10px;
+
+}
+ .top:hover{
+background-color: #f0ecec;
+ }
+ .top21 ul{
+    list-style-type: none; 
+    margin-left: auto;
+    margin-right: auto;
+  
+ }
+ .top21 li{
+     /* padding: 15px; */
+     border: 1px solid none;
+     border-radius: 10px;
+   
+    
+ }
+ .top21  input{
+    border: none;
+    background-color:#F7FAFA;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    padding: 15px;
+    font-size: 16px;
+
+}
+ li:hover{
+     border: 1px solid rgb(197, 198, 198);
+     /* background-color: rgb(197, 198, 198); */
+     background-color: #007185;
+ } 
+ /* li:active, input:active{
+    background-color: rgb(37, 142, 142);
+
+ } */
+ input:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: rgb(197, 198, 198);
+    background-color: #007185;
+ }
+ #last,#last2,#last3{
+    
+   border: 1px solid rgb(186, 186, 186);
+    padding:10px 30px;border-radius: 10px;
+     background-color: #ffffff;
+     margin-left: 20px; 
+     margin-top: 20px;
+     display: none;
+ }
+ #last:hover,#last2:hover,#last3:hover{
+    background-color: #F7FAFA; 
+
+ }
+ .flex-container {
+    display: flex;
+    justify-content:center ;
+    background-color: #007185;
+    width: 100%;
+  }
+  
+  .flex-container > div {
+    background-color: #FFFFFF;
+    /* width: 100px; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid rgb(141, 141, 141) ;
+    border-radius: 10px;
+   
+  }
+  .flex-container > div h4{
+      margin-top: 10px; 
+      font-size: 22px;
+      font-weight: lighter;
+      margin-left: 10px;
+  }
+  .flex-container > div img{
+      width:20% ;
+      float: left;
+      margin-right: 10px;
+  }
+  .flex-container>div:hover{
+    background-color: rgb(219, 219, 219);
+  }
+ 
+ .sec-hlp{
+  background-color:#007185  ; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+ .sec1-hlp{
+  background-color: #fff;
+  width: 85%;
+   border: 1px solid rgb(255, 255, 255) ;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+    padding: 0px 20px;
+    margin-top: 20px;
+     border-left:15px solid #007185;
+ }
+ .sec1-hlp i{
+  color: aliceblue; 
+  border: 1px solid #007185;
+  padding: 5px 10px; 
+   border-radius: 50%;
+   background-color:#007185 ;
+ }
+ /* 
+ end of style help page
+ */

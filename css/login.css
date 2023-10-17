@@ -1,0 +1,132 @@
+#Signh1 {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+label {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#button {
+    background: #ffd814;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#formid {
+    border-radius: 8px;
+    padding: 20px 26px;
+    border: 1px solid #ddd;
+}
+
+#container {
+    display: inline-block;
+    margin-left: 38%;
+    margin-right: 38%;
+    width: 350px;
+}
+
+#loginmail,
+#pass {
+    background-color: #fff;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    width: 100%;
+    margin-right: 0;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    outline: 0;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+
+}
+
+.btn {
+    width: 100% !important;
+    background: #FFD814;
+    border-color: #FCD200;
+    color: #111;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+
+#button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+    cursor: pointer;
+    line-height: 3;
+}
+a:hover{
+    color: brown;
+}
+
+.icon {
+    box-sizing: border-box;
+    text-align: center !important;
+    margin-top: 40px;
+    margin-bottom: 20px !important;
+    
+    height: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#foot{
+
+display: inline-block;
+width: 75%;
+height: 44px;
+padding-left: 450px;
+line-height: 8;
+
+}
+.footer{
+    width: 33%;
+float: left;
+font-size: small;
+
+
+}
+#copyrights{
+display: inline-block;
+width: 75%;
+line-height: 5;
+padding-left: 650px;
+
+}

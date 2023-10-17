@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    
+      
+
+    </head>
+
+<body>
+    <div class="container">
+        <div class="container3" style=" margin-left: auto; margin-right: auto;">
+            <a href="index.html" style="padding: 0;margin-left: 250px; ">
+                <img src="./resources/download.png" style="width:30%">
+            </a>
+
+        </div>
+        <div class="container1">
+            <form class="container2" action="./login.html">
+                <h1>Creat account</h1>
+                <br>
+                <br>
+                <label for="text">Your name
+                </label>
+                <br>
+                <input type="text" name="text" id="text" placeholder="First and last name" onblur="validname()"
+                    onfocus="this.style.border= '1px solid #a0c1f3' ; this.style.background='#a0c1f3' "
+                    pattern="^[a-zA-Z]{4,}(?: [a-zA-Z]+){0,2}$">
+                <span id="eorname" style="color: red; display: none; padding: 20px;"> ! invalid name</span>
+                <br><br>
+                <label for="email">Mobile number or email
+                </label>
+                <br>
+                <input type="email" name="email" id="email" required onblur="validemail()"
+                    onfocus="this.style.border= '1px solid #a0c1f3' ; this.style.background='#a0c1f3'  ">
+                <span id="eormail" style="color: red; display: none;padding: 20px;"> ! invalid email </span>
+                <br><br>
+                <label for="password">Password </label>
+                <br>
+                <input type="password" name="password" id="password" placeholder="At least 6 characters">
+                <span id="info" style="color: rgb(66, 65, 65); display: inline;">
+                    <i class="fa-solid fa-exclamation" style="color: #6199ec; padding-left: 20px;"></i>
+                    Passwords must be at least 6 characters
+                </span>
+                <br>
+                <br>
+                <label for="password2"> Re-enter password
+                </label>
+                <br>
+                <input type="password" name="password2" id="password2" onblur="validpassword()">
+                <span id="eorpass" style="color: red; display: none; padding-left:20px ;"> Passwords must match </span>
+
+                <br>
+                <br>
+                <input type="submit" class="submit" onclick="redirect()" value="Continue">
+                <br>
+                <p>
+                    By creating an account, you agree to Amazon's
+                    <a href=""> Conditions of Use</a> and<a href=""> Privacy Notice</a>.
+                </p>
+                <p style="border-top: 1px solid rgb(194, 194, 239); ">
+                    Already have an account? <a href="./login.html">Sign in</a>
+                </p>
+            </form>
+        </div>
+        <div style="text-align: center; padding-top: 40px;">
+            <a href="help.html"> Conditions of Use </a>
+            <a href="help.html" style="padding-left: 10px;"> Privacy Notice </a>
+            <a href="help.html" style="padding-left: 10px;"> Help </a>
+            <p style="font-weight: lighter; padding:10px; font-size:12px; padding-left: 50px;  ">©1996–2023, Amazon.com,
+                Inc. or its affiliates</p>
+        </div>
+    </div>
+
+    <script>
+        function validname() {
+            var userName = document.getElementById("text");
+            var userErro = document.getElementById("eorname");
+            var fullName = userName.value.trim(); //remove space
+            if (fullName === "" || fullName.length < 3) {
+                userErro.style.display = "inline"
+                userName.select();
+            } else {
+                userErro.style.display = "none"
+                userName.style.background = "white";
+                return true;
+            }
+        }
+
+        function validemail() {
+            var userEmail = document.getElementById("email");
+            var mailErro = document.getElementById("eormail");
+            //  var fullMail=userEmail.value.trim();    //remove space
+            if (fullMail === "") {
+                mailErro.style.display = "inline"
+                // userName.style.background="gray";
+                userEmail.select();
+            } else {
+                mailErro.style.display = "none"
+                userEmail.style.background = "white";
+                return true;
+            }
+        }
+
+        function validpassword() {
+            var userpass = document.getElementById("password");
+            var passrep = document.getElementById("password2")
+            var passErro = document.getElementById("eorpass");
+            var info = document.getElementById("info")
+            //  var fullName=userName.value.trim();    //remove space
+            if (userpass.value !== passrep.value) {
+                passErro.style.display = "inline"
+                info.style.display = "none"
+                userpass.style = "border:2px solid red";
+                passrep.style = "border:2px solid red"
+                // userName.select();
+            } else if (userpass.length < 6) {
+                info.style.display = "inline"
+                userpass.style = "border:2px solid red";
+            } else {
+                passErro.style.display = "none"
+                info.style.display = "none"
+                userpass.style = "background-color:white;border:2px solid blue";
+                passrep.style = "background-color:white;border:2px solid blue"
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>
