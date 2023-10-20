@@ -36,9 +36,6 @@ This project demonstrates the creation of a webpage similar to Amazon's navigati
 - help page
   
 
-## Demo
-
-https://mabuelhasaan-amazon.netlify.app/
 
 ## Installation
 
